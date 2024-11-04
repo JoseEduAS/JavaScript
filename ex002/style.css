@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(120deg, #ff3658, #ff5c77, #ff728a);
+}
+
+header{
+    color: white;
+    background-color: black;
+
+    padding: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+main{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+    width: 400px;
+    height: auto;
+
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.425);
+    background-color: white;
+}
+
+main > h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.4em;
+}
+
+main > h2{
+    margin-bottom: 10px;
+}
+
+code{
+    color: #60ad18;
+}
+
+.jnl_ok{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    background-image: url(imagens/Captura\ de\ tela\ 2024-11-04\ 134016.png);
+    background-size: cover;
+    background-color: black;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.jnl_nome{
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    background-image: url(imagens/Captura\ de\ tela\ 2024-11-04\ 134034.png);
+    background-size: cover;
+    background-color: black;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
